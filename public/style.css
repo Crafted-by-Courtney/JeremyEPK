@@ -1,14 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    background: transparent;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background: rgb(255, 0, 0);
-    overflow: hidden;
-    overflow-y: scroll;
+  background: rgb(227, 235, 239);
+  background: radial-gradient(
+    circle,
+    rgba(227, 235, 239, 1) 0%,
+    rgba(181, 181, 181, 1) 15%,
+    rgba(15, 22, 110, 1) 100%
+  );
+  overflow: hidden;
+  overflow-y: scroll;
 }
