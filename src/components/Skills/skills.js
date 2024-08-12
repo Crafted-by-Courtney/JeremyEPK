@@ -1,67 +1,110 @@
-import React from 'react'
-import './skills.css'
-import kiki2 from '../images/kiki2.jpg'
-import kiki3 from '../images/kiki3.jpg'
-import kiki4 from '../images/kiki4.jpg'
-import kiki5 from '../images/kiki5.jpg'
-import kiki6 from '../images/kiki6.jpg'
-import kiki9 from '../images/kiki9.jpg'
-import { Link } from 'react-scroll';
+import React from "react";
+import "./skills.css";
+import jeremy2 from "../images/jeremy2.jpeg";
+import jeremy3 from "../images/jeremy3.jpeg";
+import jeremy4 from "../images/jeremy4.jpeg";
+import jeremy5 from "../images/jeremy5.jpg";
+import { Link } from "react-scroll";
 
 const Skills = () => {
   return (
-    <section id='skills'>
-        <span className='skillTitle'>What I Do</span>
-        <span className='skillDesc'>Kiki is an eclectic music artist with a unique blend of talents that captivate audiences around the world. Hailing from Detroit, Kiki's journey in the music industry began at a young age, fueled by a passion for creativity and self-expression.</span> 
-        
-        <div className='skillBars'>
-            <div className='skillBar'>
-                <img src={kiki2} alt='kiki2' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>The Singer</h2>
-                    <p>With a melodious voice that resonates with soulful vibes, Kiki's singing has the power to touch hearts and evoke emotions. As a prolific songwriter, Kiki's lyrics are a testament to the power of storytelling, often inspired by personal experiences and universal themes</p>
-                </div> 
-            </div>
-            <div className='skillBar'>
-                <img src={kiki3} alt='kiki3' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>The Rapper</h2>
-                    <p>Kiki's dynamic rap skills bring an edgy and energetic flair to her music, setting the stage on fire with an unforgettable stage presence. She's performed at renowned venues across the nation, consistently leaving the crowd craving more</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src={kiki4} alt='kiki4' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>The Pianist</h2>
-                    <p>As a classically trained pianist, Kiki's music transcends genres and seamlessly combines classical elements with contemporary sounds. Her piano performances are a testament to her versatility and love for all things musical</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src={kiki5} alt='kiki5' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>The Dancer</h2>
-                    <p>Kiki's dance moves are electrifying, and her choreography adds a visually stunning dimension to her live performances. It's a spectacle that takes audiences on a journey through music and movement</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src={kiki6} alt='kiki6' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>The Performer</h2>
-                    <p>With a passion for pushing boundaries and challenging norms, Kiki is not just an artist; she's a visionary. Her music paints pictures, tells stories, and creates connections. She's more than just an artist; she's an experience</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src={kiki9} alt='kiki9' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>The Lyricist</h2>
-                    <p>Kiki's lyrical prowess and ability to craft melodies that resonate deeply showcase a rare and exceptional talent in the music industry.</p>
-                </div>
-            </div>
+    <section id="skills">
+      <span className="skillTitle">What I Do</span>
+      <span className="skillDesc">
+        As a master of the keys, I translate notes on a page into dynamic
+        soundscapes that resonate with audiences. I often collaborate with other
+        musicians, providing the harmonic foundation and melodic embellishments
+        that enhance the overall musical experience.
+      </span>
+
+      <div className="skillBars">
+        <div className="skillBar">
+          <img src={jeremy5} alt="jeremy5" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>From the Beginning</h2>
+            <p>
+              Starting my musical education with classical piano lessons at age
+              eight, Seaton won numerous musical awards during his childhood,
+              including receiving superior ratings at solo and ensemble
+              festivals. I was inspired early on by the greats in his parents’
+              record collection, from Miles Davis to Stevie Wonder, and later,
+              via listening to WJZZ 105.9 (one of the first U.S. stations to
+              adopt the smooth jazz format), I became a fan of and inspired by
+              the likes of Fourplay and Alex Bugnon.
+            </p>
+          </div>
         </div>
-        
-        
+        <div className="skillBar">
+          <img src={jeremy2} alt="jeremy2" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>The Artist</h2>
+            <p>
+              A pianist/keyboardist bringing music to life, blending technical
+              precision with artistic expression to create captivating
+              performances. They interpret compositions, infusing each piece
+              with their unique style and emotion, whether in a classical
+              concert, a jazz improvisation, or a pop performance.
+            </p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img src={jeremy3} alt="jeremy3" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>The Musician</h2>
+            <p>
+              As a versatile musician, with a focus on jazz, I navigate a wide
+              range of genres and styles, adapting my skills to different
+              musical settings. From accompanying vocalists to leading a band, I
+              play a crucial role in shaping the sound and feel of a
+              performance, adding depth and texture through their keyboard work.
+            </p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img src={jeremy4} alt="jeremy4" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>Notable Performances</h2>
+            <p>
+              <ul>
+                <li>Jazz on the River - Redford, MI</li>
+                <li>The Limit Cocktail Lounge Jazz & Jam - Detroit, MI</li>
+                <li>Firewater - Detroit, MI</li>
+                <li>Chicago Blues Jazz and Blues night - Detroit, MI</li>
+                <li>NAACP Grand Rapids Chapter at GVSU - Allendale, MI</li>
+                <li>Fox 2 News Morning Show - Southfield, MI</li>
+                <li>The Rhythm Universe Mother’s Day Jam - Detroit, MI</li>
+                <li>Corvette Club Gala - Toledo, OH</li>
+                <li>Subzero Intimate Affair - Atlanta, GA</li>
+                <li>
+                  MGM Grand Ballroom, Susan Sheridan Awards Ceremony DTE Energy
+                  - Detroit, MI
+                </li>
+                <li>
+                  Ritz Carlton T.H.A.W. Foundation Fundraiser - Dearborn, MI
+                </li>
+                <li>
+                  Genettis Hole in the Wall Dinner Theatre Couture for a Cure
+                  Fashion Show - Northville, MI
+                </li>
+                <li>
+                  Corona Ranch, Laveen Village (Phoenix), opened for and played
+                  behind Ronnie Laws
+                </li>
+                <li>
+                  2019 Memorial Day Jazz Festival in Leimert Park, Los Angeles
+                </li>
+                <li>Opened for Samara Cyn at Arizona Stadium, Tucson, AZ</li>
+                <li>
+                  Opened for Teddy Swims, Coca Cola Sun Deck, Sun Devil Football
+                  Stadium, Tempe, AZ
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
-}
+};
 
 export default Skills;
