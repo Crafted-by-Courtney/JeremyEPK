@@ -22,8 +22,8 @@ const Works = () => {
         diverse collection of soulful melodies, powerful instuments, and
         innovative compositions that paint a vibrant picture of artistic
         expression. Explore the melodies that define moments and narratives that
-        resonate, as Jeremy invites you on a captivating auditory experience
-        through this portfolio.
+        resonate, as I invite you on a captivating auditory experience through
+        this portfolio.
       </span>
       <div className="worksImgs">
         <a href="https://music.apple.com/us/album/exotic-nights-feat-david-marq-john-barnhill-iv-single/1644255711">
